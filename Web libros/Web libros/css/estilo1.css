@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Menú*/
+
+.menú {
+    display: flex;
+    background-color: rgb(234, 250, 234);
+    text-align: center;
+    white-space: nowrap;
+    /*no baje las palabras en una frase -sobre nosotros-*/
+}
+
+.menú ul {
+    list-style: none;
+    margin: 15px;
+    padding-right: 100px;
+}
+
+.menú li {
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.menú a:hover {
+    color: rgb(110, 142, 89);
+    border-radius: 4px;
+    /*redondo en las esquinas*/
+    padding: 15px 20px;
+
+}
+
+.intro li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.intro a {
+    text-decoration: none;
+    color: rgb(120, 12, 40);
+    font-weight: bold;
+}
+
+/*Tamaño logo*/
+.logo img {
+    width: 28%;
+}
+
+/*Tamaño compra*/
+.compra img {
+    width: 21%;
+}
+
+.búsqueda {
+    margin-top: 48px;
+    border-radius: 25px;
+}
+
+.cuerpo {
+    background-color: rgb(202, 224, 188);
+}
+
+/*Cuerpo*/
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Cuerpo imagesI*/
+
+.librosI img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.librosI {
+    text-align: center;
+}
+
+.ImagenI {
+    text-align: center;
+    margin: 50px;
+    display: inline-block;
+}
+
+/*Cuerpo imagesII*/
+
+.librosII img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.librosII {
+    text-align: center;
+}
+
+.ImagenII {
+    text-align: center;
+    margin: 50px;
+    display: inline-block;
+}
+
+/*Cuerpo imagesIII*/
+
+.librosIII img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.librosIII {
+    text-align: center;
+}
+
+.ImagenIII {
+    text-align: center;
+    margin: 50px;
+    display: inline-block;
+}
+
+/*Cuerpo detalles*/
+
+hr {
+    width: 100%;
+    margin: 20px auto;
+    color: rgb(120, 12, 40);
+
+}
+
+h2 {
+    margin-left: 25px;
+    margin-top: 50px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(120, 12, 40);
+    font-size: 30px;
+}
+
+h5 {
+    padding: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+      color: rgb(120, 12, 40);
+}
+
+/*Autoras*/
+
+.autorI {
+    max-width: 300px;
+    display: inline-block;
+    /*se alinean*/
+    text-align: center;
+}
+
+.autorI img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*sale redondeado*/
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*Pie*/
+footer {
+margin-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(110, 142, 89);
+    color: rgb(120, 12, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      white-space: nowrap;
+
+}
+
+.redes img{
+    width: 5%;
+    float: left;
+margin-left: 20px;
+}
+
+footer .logopie img {
+    width: 18%;
+    margin-top: 8px;
+    float: left;
+}
+
+.copyright{
+    float: right;
+    margin-right: 15px;
+    margin-left: 12%;
+    font-size: 20px;
+}
