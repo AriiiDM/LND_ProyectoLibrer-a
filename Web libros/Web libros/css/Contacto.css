@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Menú*/
+
+.menú {
+    display: flex;
+    background-color: rgb(234, 250, 234);
+    text-align: center;
+    white-space: nowrap;
+    /*no baje las palabras en una frase -sobre nosotros-*/
+}
+
+.menú ul {
+    list-style: none;
+    margin: 15px;
+    padding-right: 100px;
+}
+
+.menú li {
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.menú a:hover {
+    color: rgb(110, 142, 89);
+    border-radius: 4px;
+    /*redondo en las esquinas*/
+    padding: 15px 20px;
+
+}
+
+.intro li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.intro a {
+    text-decoration: none;
+    color: rgb(120, 12, 40);
+    font-weight: bold;
+}
+
+/*Tamaño logo*/
+.logo img {
+    width: 28%;
+}
+
+/*Tamaño compra*/
+.compra img {
+    width: 21%;
+}
+
+.búsqueda {
+    margin-top: 48px;
+    border-radius: 25px;
+}
+
+.cuerpo {
+    background-color: rgb(202, 224, 188);
+}
+
+/*Cuerpo*/
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Título{
+    font-size: 30px;
+    color: rgb(120, 12, 40);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+
+/*cuestionario*/
+.cuestionario {
+    width: 45%;
+    float: right;
+}
+
+.cuestionario input {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(234, 250, 234);
+    color: #ffffff;
+}
+
+.cuestionario select {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(234, 250, 234);
+    color: #ffffff;
+}
+
+.cuestionario label {
+    font-size: 12px;
+    float: left;
+}
+
+.cuestionario .Priv {
+    text-decoration: underline;
+}
+
+.cuestionario .Terms {
+    text-decoration: underline;
+    /*subrayado*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pie*/
+footer {
+    margin-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(110, 142, 89);
+    color: rgb(120, 12, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.redes img {
+    width: 5%;
+    float: left;
+    margin-left: 20px;
+}
+
+footer .logopie img {
+    width: 18%;
+    margin-top: 8px;
+    float: left;
+}
+
+.copyright {
+    float: right;
+    margin-right: 15px;
+    margin-left: 12%;
+    font-size: 20px;
+}
