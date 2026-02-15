@@ -69,13 +69,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
-.Título{
+.Título {
     font-size: 30px;
     color: rgb(120, 12, 40);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
+    margin: 20px;
+    width: 100%;
+}
+
+.Mapa {
+    display: flex;
+    margin: 20px;
 }
 
 
@@ -84,6 +91,7 @@
 .cuestionario {
     width: 45%;
     float: right;
+    margin: 20px;
 }
 
 .cuestionario input {
@@ -108,7 +116,6 @@
 
 .cuestionario label {
     font-size: 12px;
-    float: left;
 }
 
 .cuestionario .Priv {
@@ -120,7 +127,19 @@
     /*subrayado*/
 }
 
+.Datos {
+    width: 100%;
+}
 
+.Datos input {
+    flex: 1;
+    background-color: rgb(234, 250, 234);
+    color: rgb(120, 12, 40);
+    border: none;
+    border-radius: 1px;
+    width: 100px;
+
+}
 
 
 
