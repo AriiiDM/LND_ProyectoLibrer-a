@@ -12,6 +12,8 @@
     text-align: center;
     white-space: nowrap;
     /*no baje las palabras en una frase -sobre nosotros-*/
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menú ul {
@@ -31,7 +33,6 @@
     border-radius: 4px;
     /*redondo en las esquinas*/
     padding: 15px 20px;
-
 }
 
 .intro li {
@@ -71,6 +72,27 @@
     justify-content: center;
 }
 
+/*Vídeo*/
+
+.video {
+    background-color: rgb(202, 224, 188);
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.videito {
+    background-color: rgb(202, 224, 188);
+}
+
+p {
+    color: rgb(120, 12, 40);
+    text-align: center;
+}
+
 /*Cuerpo imagesI*/
 
 .librosI img {
@@ -88,6 +110,14 @@
     margin: 50px;
     display: inline-block;
 }
+
+.librosI :hover {
+    color: rgb(110, 142, 89);
+    border-radius: 4px;
+    /*redondo en las esquinas*/
+    padding: 15px 20px;
+}
+
 
 /*Cuerpo imagesII*/
 
@@ -107,6 +137,13 @@
     display: inline-block;
 }
 
+.librosII :hover {
+    color: rgb(110, 142, 89);
+    border-radius: 4px;
+    /*redondo en las esquinas*/
+    padding: 15px 20px;
+}
+
 /*Cuerpo imagesIII*/
 
 .librosIII img {
@@ -123,6 +160,13 @@
     text-align: center;
     margin: 50px;
     display: inline-block;
+}
+
+.librosIII :hover {
+    color: rgb(110, 142, 89);
+    border-radius: 4px;
+    /*redondo en las esquinas*/
+    padding: 15px 20px;
 }
 
 /*Cuerpo detalles*/
@@ -147,7 +191,15 @@ h5 {
     padding: 9px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
-      color: rgb(120, 12, 40);
+    color: rgb(120, 12, 40);
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(120, 12, 40);
+    padding: 9px;
+    text-align: center;
 }
 
 /*Autoras*/
@@ -164,15 +216,13 @@ h5 {
     height: 250px;
     border-radius: 50%;
     /*sale redondeado*/
-    font-style: italic;
     padding: 20px;
     text-align: center;
 }
 
-
 /*Pie*/
 footer {
-margin-top: 5px;
+    margin-top: 5px;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(110, 142, 89);
@@ -180,14 +230,14 @@ margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-      white-space: nowrap;
+    white-space: nowrap;
 
 }
 
-.redes img{
+.redes img {
     width: 5%;
     float: left;
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 footer .logopie img {
@@ -196,9 +246,102 @@ footer .logopie img {
     float: left;
 }
 
-.copyright{
+.copyright {
     float: right;
     margin-right: 15px;
     margin-left: 12%;
     font-size: 20px;
+}
+
+
+
+/********************************PARA TABLET (768PX)***********************************/
+
+
+
+@media (max-width: 768px) {
+
+    /* Menú en columna */
+    .menú {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        margin: 5px 0;
+    }
+
+    /*Búsqueda centrada*/
+    .búsqueda {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Libros en 2 columnas*/
+    .librosI div,
+    .librosII div,
+    .librosIII div {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    /*Autores en 2 columnas*/
+    .autores div {
+        width: 48%;
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /*Video adaptable*/
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/********************************PARA MÓVIL (480PX)***********************************/
+
+@media (max-width: 480px) {
+
+    /* Menú vertical */
+    .menú {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    /*Libros en 1 columna*/
+    .librosI div,
+    .librosII div,
+    .librosIII div {
+        width: 100%;
+        display: block;
+    }
+
+    /*Autores en 1 columna*/
+    .autores div {
+        width: 100%;
+        display: block;
+    }
+
+    /*Imágenes que se adapten*/
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*Texto más pequeño*/
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
