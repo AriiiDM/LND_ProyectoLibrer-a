@@ -74,7 +74,7 @@
 
 /*Vídeo*/
 
-.video {
+#video {
     background-color: rgb(202, 224, 188);
     width: 500px;
     text-align: center;
@@ -91,6 +91,30 @@
 p {
     color: rgb(120, 12, 40);
     text-align: center;
+}
+
+.mostrar{
+    display: block;
+}
+.ocultar {
+    display: none;
+}
+
+#boton {
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 8px;
+color: rgb(234, 250, 234);
+background-color: rgb(120, 12, 40);
+}
+
+.fondoboton{
+    background-color: rgb(202, 224, 188);
+}
+
+#boton:hover {
+background-color: rgb(110, 142, 89) /* cambia al pasar el ratón */
 }
 
 /*Cuerpo imagesI*/
@@ -117,8 +141,24 @@ p {
     /*redondo en las esquinas*/
     padding: 15px 20px;
 }
+/*JavaScript Cumbres Borrascosas*/
 
+#botonrebaja {
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 8px;
+color: rgb(234, 250, 234);
+background-color: rgb(120, 12, 40);
+}
 
+.fondorebaja{
+    background-color: rgb(202, 224, 188);
+}
+
+#botonrebaja:hover {
+background-color: rgb(110, 142, 89) /* cambia al pasar el ratón */
+}
 /*Cuerpo imagesII*/
 
 .librosII img {
