@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+
+<title>Susurros de tinta</title>
+<link>http://127.0.0.1:5501/Web%20libros/Web%20libros/index1.html</link>
+<description>Marcapáginas inspirados en libros</description>
+<language>es-es</language>
+
+<item>
+<enclosure url="https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/6855450d2dab86854ae3605b_SKGSiCS2i8c52-FPkmqEpdm8uRtLrR-R8Cj3hsRClxg-p-800.jpeg" length="74083" type="image/jpeg"/>
+<title>Marcapáginas - Lev Tolstói</title>
+<link>http://127.0.0.1:5501/Web%20libros/Web%20libros/index1.html</link>
+</item>
+
+<item>
+<enclosure url="https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/6855451055e2a6119e2f0fbf_54-muka4XmO5KTaJiAAfY--i15FpPA3UC2xh0lG31D0-p-800.jpeg" length="45099" type="image/jpeg"/>
+<title>Marcapáginas - La bella y la bestia</title>
+<link>http://127.0.0.1:5501/Web%20libros/Web%20libros/index1.html</link>
+</item>
+
+<item>
+<enclosure url="https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/685545005e93f506e5b131f0_FggwqyntdRQf8V5ECiiTPVjMOhDIIX0aeVtem9yr2M8-p-800.jpeg"  length="61361" type="image/jpeg"/>
+<title>Marcapáginas - Orgullo y prejuicio</title>
+<link>http://127.0.0.1:5501/Web%20libros/Web%20libros/index1.html</link>
+</item>
+
+</channel>
+</rss> 

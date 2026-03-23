@@ -100,7 +100,7 @@
     border: none;
     border-radius: 5px;
     background-color: rgb(234, 250, 234);
-    color: #ffffff;
+    color: rgb(120, 12, 40);
 }
 
 .cuestionario select {
@@ -110,7 +110,7 @@
     border: none;
     border-radius: 5px;
     background-color: rgb(234, 250, 234);
-    color: #ffffff;
+    color: rgb(120, 12, 40);
 }
 
 .cuestionario label {
@@ -204,4 +204,96 @@ footer .logopie img {
     margin-right: 15px;
     margin-left: 12%;
     font-size: 20px;
+}
+
+
+/********************************PARA TABLET (768PX)***********************************/
+
+
+
+@media (max-width: 768px) {
+
+    /* Menú en columna */
+    .menú {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        margin: 5px 0;
+    }
+
+    /*Búsqueda centrada*/
+    .búsqueda {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Libros en 2 columnas*/
+    .librosI div,
+    .librosII div,
+    .librosIII div {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    /*Autores en 2 columnas*/
+    .autores div {
+        width: 48%;
+        display: inline-block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /*Video adaptable*/
+    .video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/********************************PARA MÓVIL (480PX)***********************************/
+
+@media (max-width: 480px) {
+
+    /* Menú vertical */
+    .menú {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    /*Libros en 1 columna*/
+    .librosI div,
+    .librosII div,
+    .librosIII div {
+        width: 100%;
+        display: block;
+    }
+
+    /*Autores en 1 columna*/
+    .autores div {
+        width: 100%;
+        display: block;
+    }
+
+    /*Imágenes que se adapten*/
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /*Texto más pequeño*/
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
